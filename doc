@@ -1,0 +1,6 @@
+    Company codes and names ::
+----------------------------------
+This API call is used to download all of the dataset codes and dataset names available in this database. The call will return a ZIP file containing a CSV.
+
+https://www.quandl.com/api/v3/databases/NSE/codes?api_key=UKT1gkfJ9uwzZouA41hM
+
