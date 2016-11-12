@@ -4,3 +4,7 @@ This API call is used to download all of the dataset codes and dataset names ava
 
 https://www.quandl.com/api/v3/databases/NSE/codes?api_key=UKT1gkfJ9uwzZouA41hM
 
+# The headers of dataset of any company are as follows:
+# ---------------------------------------------------------------------------------
+#   Date    Open   High   Low   Last  Close  Total Trade-Quantity  Turnover(Lacs)
+# ---------------------------------------------------------------------------------
