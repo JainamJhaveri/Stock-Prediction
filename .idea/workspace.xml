@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a022eda-48b6-48ce-b01a-430979ebb451" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/macd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stochastic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bollinger_bands.py" afterPath="$PROJECT_DIR$/bollinger_bands.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daily_returns.py" afterPath="$PROJECT_DIR$/daily_returns.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util.py" afterPath="$PROJECT_DIR$/util.py" />
     </list>
@@ -26,29 +26,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="macd.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/macd.py">
+      <file leaf-file-name="stochastic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stochastic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
-                <element signature="e#45#64#0" expanded="true" />
+                <element signature="e#57#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="146">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
-                <element signature="e#353#545#0" expanded="false" />
-                <element signature="e#578#732#0" expanded="false" />
-                <element signature="e#762#957#0" expanded="false" />
-                <element signature="e#996#1165#0" expanded="false" />
-                <element signature="e#1622#1646#0" expanded="false" />
+                <element signature="e#413#605#0" expanded="false" />
+                <element signature="e#638#792#0" expanded="false" />
+                <element signature="e#822#1017#0" expanded="false" />
+                <element signature="e#1056#1225#0" expanded="false" />
+                <element signature="e#1249#1416#0" expanded="false" />
+                <element signature="e#1439#1625#0" expanded="false" />
+                <element signature="e#1891#1915#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily_returns.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_returns.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding>
+                <element signature="e#69#204#0" expanded="false" />
+                <element signature="e#239#381#0" expanded="false" />
+                <element signature="e#421#565#0" expanded="false" />
+                <element signature="e#614#1099#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,15 +74,26 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
-                <element signature="e#100#469#0" expanded="false" />
-                <element signature="e#186#455#0" expanded="false" />
+                <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#522#836#0" expanded="false" />
                 <element signature="e#522#605#1" expanded="false" />
                 <element signature="e#915#1107#0" expanded="false" />
                 <element signature="e#1167#1247#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="macd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/macd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,12 +126,13 @@
         <option value="$PROJECT_DIR$/myquandlscript.py" />
         <option value="$PROJECT_DIR$/mr/myquandlscript.py" />
         <option value="$PROJECT_DIR$/sample_csv_files/daily_returns.py" />
-        <option value="$PROJECT_DIR$/daily_returns.py" />
         <option value="$PROJECT_DIR$/myquandl.py" />
         <option value="$PROJECT_DIR$/bollinger_bands.py" />
+        <option value="$PROJECT_DIR$/macd.py" />
+        <option value="$PROJECT_DIR$/daily_returns.py" />
         <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/macd.py" />
+        <option value="$PROJECT_DIR$/stochastic.py" />
       </list>
     </option>
   </component>
@@ -212,23 +241,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StockPrediction" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="myquandl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,6 +271,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StockPrediction" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/macd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stochastic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StockPrediction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stochastic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -418,17 +447,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python.quandl" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
       <item index="2" class="java.lang.String" itemvalue="Python.daily_returns" />
-      <item index="3" class="java.lang.String" itemvalue="Python.util" />
-      <item index="4" class="java.lang.String" itemvalue="Python.myquandl" />
-      <item index="5" class="java.lang.String" itemvalue="Python.macd" />
+      <item index="3" class="java.lang.String" itemvalue="Python.myquandl" />
+      <item index="4" class="java.lang.String" itemvalue="Python.macd" />
+      <item index="5" class="java.lang.String" itemvalue="Python.stochastic" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.macd" />
-        <item index="2" class="java.lang.String" itemvalue="Python.myquandl" />
-        <item index="3" class="java.lang.String" itemvalue="Python.daily_returns" />
-        <item index="4" class="java.lang.String" itemvalue="Python.util" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stochastic" />
+        <item index="2" class="java.lang.String" itemvalue="Python.macd" />
+        <item index="3" class="java.lang.String" itemvalue="Python.myquandl" />
+        <item index="4" class="java.lang.String" itemvalue="Python.daily_returns" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479149329855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="macd added">
+      <created>1479158390891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1479158390891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -503,7 +539,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="151" y="208" width="1109" height="544" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35074627" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3313433" sideWeight="0.49066874" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313433" sideWeight="0.49066874" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -526,9 +562,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35074627" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313433" sideWeight="0.49066874" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313433" sideWeight="0.49066874" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26603326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26603326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -572,35 +608,26 @@
     <MESSAGE value="added dataframe for easy calc and sample csv" />
     <MESSAGE value="plotting daily returns and bollinger bands" />
     <MESSAGE value="modularized for presenting,added daily returns" />
-    <option name="LAST_COMMIT_MESSAGE" value="modularized for presenting,added daily returns" />
+    <MESSAGE value="macd added" />
+    <option name="LAST_COMMIT_MESSAGE" value="macd added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bollinger_bands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#258#312#0" expanded="false" />
-            <element signature="e#356#409#0" expanded="false" />
-            <element signature="e#643#1309#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#353#545#0" expanded="false" />
-            <element signature="e#578#732#0" expanded="false" />
-            <element signature="e#762#957#0" expanded="false" />
-            <element signature="e#996#1165#0" expanded="false" />
-            <element signature="e#1622#1646#0" expanded="false" />
+            <element signature="e#413#605#0" expanded="false" />
+            <element signature="e#638#792#0" expanded="false" />
+            <element signature="e#822#1017#0" expanded="false" />
+            <element signature="e#1056#1225#0" expanded="false" />
+            <element signature="e#1249#1416#0" expanded="false" />
+            <element signature="e#1439#1625#0" expanded="false" />
+            <element signature="e#1891#1915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,11 +856,13 @@
         <state relative-caret-position="329">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <element signature="e#353#545#0" expanded="false" />
-            <element signature="e#578#732#0" expanded="false" />
-            <element signature="e#762#957#0" expanded="false" />
-            <element signature="e#996#1165#0" expanded="false" />
-            <element signature="e#1622#1646#0" expanded="false" />
+            <element signature="e#413#605#0" expanded="false" />
+            <element signature="e#638#792#0" expanded="false" />
+            <element signature="e#822#1017#0" expanded="false" />
+            <element signature="e#1056#1225#0" expanded="false" />
+            <element signature="e#1249#1416#0" expanded="false" />
+            <element signature="e#1439#1625#0" expanded="false" />
+            <element signature="e#1891#1915#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,6 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="568" column="0" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,31 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_returns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#55#188#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="e#100#469#0" expanded="false" />
-            <element signature="e#186#455#0" expanded="false" />
-            <element signature="e#522#836#0" expanded="false" />
-            <element signature="e#522#605#1" expanded="false" />
-            <element signature="e#915#1107#0" expanded="false" />
-            <element signature="e#1167#1247#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bollinger_bands.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -942,26 +947,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="375">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
-            <element signature="e#353#545#0" expanded="false" />
-            <element signature="e#578#732#0" expanded="false" />
-            <element signature="e#762#957#0" expanded="false" />
-            <element signature="e#996#1165#0" expanded="false" />
-            <element signature="e#1622#1646#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#522#836#0" expanded="false" />
+            <element signature="e#522#605#1" expanded="false" />
+            <element signature="e#915#1107#0" expanded="false" />
+            <element signature="e#1167#1247#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/macd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_returns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#69#204#0" expanded="false" />
+            <element signature="e#239#381#0" expanded="false" />
+            <element signature="e#421#565#0" expanded="false" />
+            <element signature="e#614#1099#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stochastic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#413#605#0" expanded="false" />
+            <element signature="e#638#792#0" expanded="false" />
+            <element signature="e#822#1017#0" expanded="false" />
+            <element signature="e#1056#1225#0" expanded="false" />
+            <element signature="e#1249#1416#0" expanded="false" />
+            <element signature="e#1439#1625#0" expanded="false" />
+            <element signature="e#1891#1915#0" expanded="false" />
           </folding>
         </state>
       </provider>

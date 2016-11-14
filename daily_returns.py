@@ -1,8 +1,9 @@
-from util import *
+from util import plot_data, plt
+
 
 def compute_daily_returns(df):
     daily_returns = df.copy()
-    daily_returns[1:] = (df[1:]/df[:-1].values) - 1
+    daily_returns[1:] = (df[1:] / df[:-1].values) - 1
     daily_returns.ix[0, :] = 0
     return daily_returns
 
