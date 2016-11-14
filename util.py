@@ -33,5 +33,5 @@ def plot_data(df, title="Stock prices", xlabel="Date", ylabel="Price"):
     plt.show()
 
 
-def plot_selected_data(df, startdate, enddate, sp_companies):
-    plot_data(df.ix[startdate:enddate, sp_companies], title="Special data")
+def plot_selected_data(df, daterange, sp_companies):
+    plot_data(df.ix[daterange[0]:daterange[-1], sp_companies], title="Special data")

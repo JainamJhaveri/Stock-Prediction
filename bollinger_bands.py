@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 from util import get_specific_data, plot_data
 
 
-
 def get_rolling_mean(values, window):
     return pd.Series.rolling(values, window=window).mean()
 
@@ -34,7 +33,7 @@ def plot_bollinger_bands(singledf, symbol):
     upper_band, lower_band = get_bollinger_bands(rm, rstd)
 
     # Plot raw values, rolling mean and Bollinger Bands
-    ax = singledf.plot(title="Bollinger Bands for "+symbol, label=symbol)
+    ax = singledf.plot(title="Bollinger Bands for " + symbol, label=symbol)
     rm.plot(label='Rolling mean', ax=ax)
     upper_band.plot(label='upper band', ax=ax)
     lower_band.plot(label='lower band', ax=ax)
