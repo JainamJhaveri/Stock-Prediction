@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a022eda-48b6-48ce-b01a-430979ebb451" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stochastic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/StockPrediction.iml" afterPath="$PROJECT_DIR$/.idea/StockPrediction.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daily_returns.py" afterPath="$PROJECT_DIR$/daily_returns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macd.py" afterPath="$PROJECT_DIR$/macd.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util.py" afterPath="$PROJECT_DIR$/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stochastic.py" afterPath="$PROJECT_DIR$/stochastic.py" />
     </list>
     <ignored path="StockPrediction.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,46 +27,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#1094#1121#0" expanded="false" />
+                <element signature="e#1771#1938#0" expanded="false" />
+                <element signature="e#1961#2147#0" expanded="false" />
+                <element signature="e#2796#2828#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moving_averages.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moving_averages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="stochastic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stochastic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="120">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="e#57#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="e#413#605#0" expanded="false" />
-                <element signature="e#638#792#0" expanded="false" />
-                <element signature="e#822#1017#0" expanded="false" />
-                <element signature="e#1056#1225#0" expanded="false" />
-                <element signature="e#1249#1416#0" expanded="false" />
-                <element signature="e#1439#1625#0" expanded="false" />
-                <element signature="e#1891#1915#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="daily_returns.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daily_returns.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding>
-                <element signature="e#69#204#0" expanded="false" />
-                <element signature="e#239#381#0" expanded="false" />
-                <element signature="e#421#565#0" expanded="false" />
-                <element signature="e#614#1099#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,11 +70,10 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="156">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#522#836#0" expanded="false" />
                 <element signature="e#522#605#1" expanded="false" />
                 <element signature="e#915#1107#0" expanded="false" />
                 <element signature="e#1167#1247#0" expanded="false" />
@@ -87,14 +82,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="bollinger_bands.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bollinger_bands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="macd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/macd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="e#45#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moments.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pandas/stats/moments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,6 +124,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -128,18 +144,19 @@
         <option value="$PROJECT_DIR$/sample_csv_files/daily_returns.py" />
         <option value="$PROJECT_DIR$/myquandl.py" />
         <option value="$PROJECT_DIR$/bollinger_bands.py" />
-        <option value="$PROJECT_DIR$/macd.py" />
         <option value="$PROJECT_DIR$/daily_returns.py" />
         <option value="$PROJECT_DIR$/util.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/stochastic.py" />
+        <option value="$PROJECT_DIR$/moving_averages.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/macd.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="24" />
-    <option name="width" value="1309" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -167,16 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StockPrediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -189,11 +196,31 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stock-Prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stock-Prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stock-Prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BDA Lab/1/13bce038_lab1.txt" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -290,6 +317,38 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stochastic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#PerlConfigurationType" factoryName="Perl" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="alternativeSdkPath" />
+      <option name="compileTimeBreakpointsEnabled" value="false" />
+      <option name="consoleCharset" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="nonInteractiveModeEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="perlParameters" value="" />
+      <option name="programParameters" />
+      <option name="scriptPath" />
+      <option name="useAlternativeSdk" value="false" />
+      <option name="workingDirectory" />
+      <option name="SCRIPT_PATH" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="PERL_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENVS">
+        <map />
+      </option>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="CHARSET" />
+      <option name="USE_ALTERNATIVE_SDK" value="false" />
+      <option name="ALTERNATIVE_SDK_PATH" />
+      <option name="scriptCharset" value="utf8" />
+      <option name="startMode" value="RUN" />
+      <option name="isNonInteractiveModeEnabled" value="false" />
+      <option name="isCompileTimeBreakpointsEnabled" value="false" />
+      <option name="initCode" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -530,16 +589,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1309" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26603326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26427525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27313432" sideWeight="0.5093313" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="151" y="208" width="1109" height="544" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35074627" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313433" sideWeight="0.49066874" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33123028" sideWeight="0.49066874" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -547,6 +605,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="151" y="208" width="1109" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -616,36 +675,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#413#605#0" expanded="false" />
-            <element signature="e#638#792#0" expanded="false" />
-            <element signature="e#822#1017#0" expanded="false" />
-            <element signature="e#1056#1225#0" expanded="false" />
-            <element signature="e#1249#1416#0" expanded="false" />
-            <element signature="e#1439#1625#0" expanded="false" />
-            <element signature="e#1891#1915#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr/myquandlscript.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr/myquandlscript.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -702,13 +731,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/numpy/core/records.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6675">
-          <caret line="445" column="0" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/numpy/core/records.py" />
     <entry file="file://$PROJECT_DIR$/doc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -723,42 +746,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python2.7/dist-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/urllib2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/bs4/__init__.py" />
+    <entry file="file:///usr/lib/python2.7/urllib2.py" />
     <entry file="file://$PROJECT_DIR$/scrapnames.py" />
-    <entry file="file://$PROJECT_DIR$/../scrap/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BDA Lab/1/13bce038_lab1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/numpy/core/records.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="445" column="0" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrap/test2.py" />
+    <entry file="file://$PROJECT_DIR$/../BDA Lab/1/13bce038_lab1.txt" />
+    <entry file="file:///usr/lib/python3/dist-packages/numpy/core/records.py" />
     <entry file="file://$PROJECT_DIR$/references/todo_BDA">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -766,70 +759,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python2.7/__future__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/twitter/oauth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/twitter/oauth2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1247972723/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="708" column="26" selection-start-line="708" selection-start-column="26" selection-end-line="708" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python2.7/__future__.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/twitter/oauth.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/twitter/oauth2.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1247972723/__builtin__.py" />
     <entry file="file://$PROJECT_DIR$/dave.py" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/quandl/get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="209" column="8" selection-start-line="209" selection-start-column="8" selection-end-line="209" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/strings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="144" column="4" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NSE-datasets-codes.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1796" column="44" selection-start-line="1796" selection-start-column="44" selection-end-line="1796" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/quandl/get.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/frame.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/strings.py" />
     <entry file="file://$PROJECT_DIR$/doc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -837,32 +775,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/tseries/resample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="225" column="8" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/tests/test_delaunay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/tseries/resample.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/tests/test_delaunay.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <element signature="e#413#605#0" expanded="false" />
-            <element signature="e#638#792#0" expanded="false" />
-            <element signature="e#822#1017#0" expanded="false" />
-            <element signature="e#1056#1225#0" expanded="false" />
-            <element signature="e#1249#1416#0" expanded="false" />
-            <element signature="e#1439#1625#0" expanded="false" />
-            <element signature="e#1891#1915#0" expanded="false" />
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#1094#1121#0" expanded="false" />
+            <element signature="e#1771#1938#0" expanded="false" />
+            <element signature="e#1961#2147#0" expanded="false" />
+            <element signature="e#2796#2828#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,36 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/tseries/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="2013" column="4" selection-start-line="2013" selection-start-column="4" selection-end-line="2013" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1247971764/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/groupby.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="499" column="4" selection-start-line="499" selection-start-column="4" selection-end-line="499" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="568" column="0" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/tseries/index.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1247971764/builtins.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/groupby.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/io/parsers.py" />
     <entry file="file://$PROJECT_DIR$/sample_csv_files/COALIND.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -919,61 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myquandl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/stats/moments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bollinger_bands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#258#312#0" expanded="false" />
-            <element signature="e#356#409#0" expanded="false" />
-            <element signature="e#451#592#0" expanded="false" />
-            <element signature="e#643#1309#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#522#836#0" expanded="false" />
-            <element signature="e#522#605#1" expanded="false" />
-            <element signature="e#915#1107#0" expanded="false" />
-            <element signature="e#1167#1247#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/macd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/stats/moments.py" />
     <entry file="file://$PROJECT_DIR$/daily_returns.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="51">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="e#69#204#0" expanded="false" />
@@ -984,28 +831,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pandas/stats/moments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NSE-datasets-codes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1796" column="44" selection-start-line="1796" selection-start-column="44" selection-end-line="1796" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bollinger_bands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myquandl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#522#605#1" expanded="false" />
+            <element signature="e#915#1107#0" expanded="false" />
+            <element signature="e#1167#1247#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stochastic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="120">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#57#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/macd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#45#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="291">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
           <folding>
-            <element signature="e#413#605#0" expanded="false" />
-            <element signature="e#638#792#0" expanded="false" />
-            <element signature="e#822#1017#0" expanded="false" />
-            <element signature="e#1056#1225#0" expanded="false" />
-            <element signature="e#1249#1416#0" expanded="false" />
-            <element signature="e#1439#1625#0" expanded="false" />
-            <element signature="e#1891#1915#0" expanded="false" />
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#1094#1121#0" expanded="false" />
+            <element signature="e#1771#1938#0" expanded="false" />
+            <element signature="e#1961#2147#0" expanded="false" />
+            <element signature="e#2796#2828#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moving_averages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

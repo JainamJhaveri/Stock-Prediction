@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # reference: https://www.quantopian.com/posts/technical-analysis-indicators-without-talib-code
-def MACD(df, n_fast, n_slow):
+def MACD(df, n_fast=12, n_slow=26):
     EMAfast = pd.Series(pd.ewma(df['ICICI'], span=n_fast, min_periods=n_slow - 1))
     EMAslow = pd.Series(pd.ewma(df['ICICI'], span=n_slow, min_periods=n_slow - 1))
 
@@ -17,6 +17,15 @@ def MACD(df, n_fast, n_slow):
     df = df.join(MACDdiff)
     df = df.dropna()
 
+    return df
+
+def just_MACD(df, n_fast=12, n_slow=26):
+    EMAfast = pd.Series(pd.ewma(df['Open'], span=n_fast, min_periods=n_slow - 1))
+    EMAslow = pd.Series(pd.ewma(df['Open'], span=n_slow, min_periods=n_slow - 1))
+
+    MACD = pd.Series(EMAfast - EMAslow)
+    MACD = MACD.rename('MACD')
+    df = df.join(MACD)
     return df
 
 
